@@ -3,10 +3,19 @@ public class Main {
     public static void main(String []args){
         Scanner entrada=new Scanner(System.in);
 
-        Estudiante estudiante_uno, estudiante_dos;
-        estudiante_uno=new Estudiante("Mateo", "Bernal","Redes", "Sistemas","POO","Algoritmos","Gestion",15.25, 12);
-        estudiante_dos=new Estudiante("Emilio", "Erazo","Redes", "Sistemas","POO","Algoritmos","Gestion",17.80, 15.60);
+        double []Redes;
+        double []Sistemas;
+        double []POO;
+        double []Algoritmos;
+        double []Gestion;
 
+        Estudiante estudiante_uno, estudiante_dos;
+        estudiante_uno=new Estudiante("Mateo", "Bernal","Redes", "Sistemas","POO","Algoritmos","Gestion");
+        estudiante_dos=new Estudiante("Emilio", "Erazo","Redes", "Sistemas","POO","Algoritmos","Gestion");
+
+        for (int i=0; i<2;i++){
+
+        }
 
 
     }

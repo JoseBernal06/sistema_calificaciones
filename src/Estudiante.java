@@ -7,10 +7,9 @@ public class Estudiante {
     String materia_tres;
     String materia_cuatro;
     String materia_cinco;
-    double bimestre_uno;
-    double bimestre_dos;
 
-    public Estudiante(String nombre, String apellido, String materia_uno, String materia_dos, String materia_tres, String materia_cuatro, String materia_cinco, double bimestre_uno, double bimestre_dos) {
+
+    public Estudiante(String nombre, String apellido, String materia_uno, String materia_dos, String materia_tres, String materia_cuatro, String materia_cinco) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.materia_uno = materia_uno;
@@ -18,8 +17,7 @@ public class Estudiante {
         this.materia_tres = materia_tres;
         this.materia_cuatro = materia_cuatro;
         this.materia_cinco = materia_cinco;
-        this.bimestre_uno = bimestre_uno;
-        this.bimestre_dos = bimestre_dos;
+
     }
 
     public String getNombre() {
@@ -77,21 +75,7 @@ public class Estudiante {
     public void setMateria_cinco(String materia_cinco) {
         this.materia_cinco = materia_cinco;
     }
-
-    public double getBimestre_uno() {
-        return bimestre_uno;
-    }
-
-    public void setBimestre_uno(double bimestre_uno) {
-        this.bimestre_uno = bimestre_uno;
-    }
-
-    public double getBimestre_dos() {
-        return bimestre_dos;
-    }
-
-    public void setBimestre_dos(double bimestre_dos) {
-        this.bimestre_dos = bimestre_dos;
-    }
 }
+
+
 
