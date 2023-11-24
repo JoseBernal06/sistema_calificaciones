@@ -7,6 +7,7 @@ public class Estudiante {
     String materia_tres;
     String materia_cuatro;
     String materia_cinco;
+    double calificacion_uno_materia_uno;
 
 
     public Estudiante(String nombre, String apellido, String materia_uno, String materia_dos, String materia_tres, String materia_cuatro, String materia_cinco) {
@@ -70,6 +71,14 @@ public class Estudiante {
 
     public String getMateria_cinco() {
         return materia_cinco;
+    }
+
+    public double getCalificacion_uno_materia_uno() {
+        return calificacion_uno_materia_uno;
+    }
+
+    public void setCalificacion_uno_materia_uno(double calificacion_uno_materia_uno) {
+        this.calificacion_uno_materia_uno = calificacion_uno_materia_uno;
     }
 
     public void setMateria_cinco(String materia_cinco) {
