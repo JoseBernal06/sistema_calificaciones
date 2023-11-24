@@ -14,7 +14,19 @@ public class Main {
         estudiante_dos=new Estudiante("Emilio", "Erazo","Redes", "Sistemas","POO","Algoritmos","Gestion");
 
         for (int i=0; i<2;i++){
+            System.out.println("\n\t\t\t\tESTUDIANTE "+(i+1));
+            System.out.print("Ingrese la nota del bimestre 1 de Redes: ");
+            System.out.print("Ingrese la nota del bimestre 2 de Redes: ");
+            System.out.print("Ingrese la nota del bimestre 1 de Sistemas: ");
+            System.out.print("Ingrese la nota del bimestre 2 de Sistemas: ");
+            System.out.print("Ingrese la nota del bimestre 1 de POO: ");
+            System.out.print("Ingrese la nota del bimestre 2 de POO: ");
+            System.out.print("Ingrese la nota del bimestre 1 de ALGORITMOS: ");
+            System.out.print("Ingrese la nota del bimestre 2 de ALGORIMOS: ");
+            System.out.print("Ingrese la nota del bimestre 1 de GESTIENO: ");
+            System.out.print("Ingrese la nota del bimestre 2 de GESTION: ");
 
+            String nombre = entrada.nextLine();
         }
 
 
