@@ -1,24 +1,23 @@
 public class Estudiante {
 
+    String codigo_unico;
     String nombre;
     String apellido;
-    String materia_uno;
-    String materia_dos;
-    String materia_tres;
-    String materia_cuatro;
-    String materia_cinco;
-    double calificacion_uno_materia_uno;
+    int edad;
 
-
-    public Estudiante(String nombre, String apellido, String materia_uno, String materia_dos, String materia_tres, String materia_cuatro, String materia_cinco) {
+    public Estudiante(String codigo_unico, String nombre, String apellido, int edad) {
+        this.codigo_unico = codigo_unico;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.materia_uno = materia_uno;
-        this.materia_dos = materia_dos;
-        this.materia_tres = materia_tres;
-        this.materia_cuatro = materia_cuatro;
-        this.materia_cinco = materia_cinco;
+        this.edad = edad;
+    }
 
+    public String getCodigo_unico() {
+        return codigo_unico;
+    }
+
+    public void setCodigo_unico(String codigo_unico) {
+        this.codigo_unico = codigo_unico;
     }
 
     public String getNombre() {
@@ -37,52 +36,12 @@ public class Estudiante {
         this.apellido = apellido;
     }
 
-    public String getMateria_uno() {
-        return materia_uno;
+    public int getEdad() {
+        return edad;
     }
 
-    public void setMateria_uno(String materia_uno) {
-        this.materia_uno = materia_uno;
-    }
-
-    public String getMateria_dos() {
-        return materia_dos;
-    }
-
-    public void setMateria_dos(String materia_dos) {
-        this.materia_dos = materia_dos;
-    }
-
-    public String getMateria_tres() {
-        return materia_tres;
-    }
-
-    public void setMateria_tres(String materia_tres) {
-        this.materia_tres = materia_tres;
-    }
-
-    public String getMateria_cuatro() {
-        return materia_cuatro;
-    }
-
-    public void setMateria_cuatro(String materia_cuatro) {
-        this.materia_cuatro = materia_cuatro;
-    }
-
-    public String getMateria_cinco() {
-        return materia_cinco;
-    }
-
-    public double getCalificacion_uno_materia_uno() {
-        return calificacion_uno_materia_uno;
-    }
-
-    public void setCalificacion_uno_materia_uno(double calificacion_uno_materia_uno) {
-        this.calificacion_uno_materia_uno = calificacion_uno_materia_uno;
-    }
-
-    public void setMateria_cinco(String materia_cinco) {
-        this.materia_cinco = materia_cinco;
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 }
 
