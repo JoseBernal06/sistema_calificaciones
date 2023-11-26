@@ -27,11 +27,19 @@ public class Main {
         materias= new Materias("Redes","Sistemas","POO","Algoritmos","Gestion");
 
         //clase estudiante
-        Estudiante estudiante_uno, estudiante_dos;
-        estudiante_uno=new Estudiante("12236894","Mateo", "Bernal",19);
-        estudiante_dos=new Estudiante("29222356","Emilio", "Erazo",20);
+        Estudiante estudiante_uno, estudiante_dos, estudiante_tres, estudiante_cuatro, estudiante_cinco, estudiante_seis, estudiante_siete, estudiante_ocho, estudiante_nueve, estudiante_diez;
+        estudiante_uno=new Estudiante("122368948","Mateo", "Bernal",19);
+        estudiante_dos=new Estudiante("202384675","Mathias", "Bermeo",20);
+        estudiante_tres=new Estudiante("201920203","Emilio", "Erazo",22);
+        estudiante_cuatro=new Estudiante("202021587","Luis", "Perez",24);
+        estudiante_cinco=new Estudiante("202165974","Enrique", "Castillo",20);
+        estudiante_seis=new Estudiante("201957643","Esteban", "Cuadrado",18);
+        estudiante_siete=new Estudiante("201584759","Vannessa", "Zurita",25);
+        estudiante_ocho=new Estudiante("205743946","Yuverly", "Valverde",19);
+        estudiante_nueve=new Estudiante("202157935","Adriana", "Yanez",23);
+        estudiante_diez=new Estudiante("202258476","Alexandro", "Arroba",22);
 
-        for (int i=0; i<2;i++){
+        for (int i=0; i<10;i++){
             System.out.println("\n\t\tESTUDIANTE "+(i+1));
             System.out.println("\t\tBIMESTRE 1");
             System.out.print("Ingrese la nota del bimestre 1 de "+materias.materia_uno+": ");Redes_uno[i]= entrada.nextDouble();
@@ -49,7 +57,7 @@ public class Main {
 
         }
 
-        for (int i=0;i<2;i++){
+        for (int i=0;i<10;i++){
             promedio_redes[i]=(Redes_uno[i]+Redes_dos[i])/2;
             promedio_sistemas[i]=(Sistemas_uno[i]+Sistemas_dos[i])/2;
             promedio_POO[i]=(POO_uno[i]+POO_dos[i])/2;
@@ -57,7 +65,7 @@ public class Main {
             promedio_gestion[i]=(Gestion_uno[i]+Gestion_dos[i])/2;
         }
 
-        for (int i=0; i<2; i++){
+        for (int i=0; i<10; i++){
             System.out.println("\n\t\tESTUDIANTE "+(i+1));
             if (promedio_redes[i]<14){
                 System.out.println("El estudiante "+(i+1)+" REPROBO "+materias.materia_uno);
